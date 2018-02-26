@@ -178,3 +178,9 @@
       box-shadow: var(--shadow);
       padding: 0.6em 1em;
     }
+
+    .allinclude-all-matches li:hover,
+    .allinclude-all-matches a:hover {
+      background: #483D8B;
+      color: yellow;
+    }
