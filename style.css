@@ -162,6 +162,10 @@
       text-align: center;
     }
 
+    .league-table tr:nth-child(odd) {
+      background-color: var(--primary) /*#4C8BF5*/;      
+    }
+
     .allinclude-all-matches ul {
       list-style-type: none;
       padding-left: 0px;
@@ -177,4 +181,10 @@
       background: var(--dark);
       box-shadow: var(--shadow);
       padding: 0.6em 1em;
+    }
+
+    .allinclude-all-matches li:hover,
+    .allinclude-all-matches a:hover {
+      background: #483D8B;
+      color: yellow;
     }
