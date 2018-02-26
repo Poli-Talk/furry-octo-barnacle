@@ -162,6 +162,10 @@
       text-align: center;
     }
 
+    .league-table tr:nth-child(odd) {
+      background-color: var(--primary) /*#4C8BF5*/;      
+    }
+
     .allinclude-all-matches ul {
       list-style-type: none;
       padding-left: 0px;
